@@ -1,3 +1,18 @@
+## About this Project
+- This project demo of complete auth representaion using AWS Cognito and React 
+- What is Amazon Cognito?
+Amazon Cognito provides services that let you add user sign-up, sign-in, and access control to your web and mobile apps quickly and with ease.
+
+## Requirements
+- Nodejs 
+- Knowledge of React
+- AWS account
+- AWS Cognito  pool
+
+## How to create AWS Cognito Pool
+- First create a aws account then  select cognito service after that create a pool in side cognito service .
+when pool created a pool id and client Id will genrate these keys put inside the project UserPool.tsx file
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -34,4 +49,6 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+
 
